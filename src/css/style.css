@@ -1,0 +1,99 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #E5E5E5;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.faq-container { 
+    display: flex;
+    align-items: center;
+    background-color: #FCFCFC;
+    box-shadow: 0 27px 49px -25px rgba(0, 0, 0, 0.3);
+    width: 655px;
+    min-height: 347px;
+    border-radius: 21px;
+    position: relative;
+}
+
+.faq-container .faq-img {
+    position: absolute;
+    left: -90px;
+}
+
+.faq-container .text-container {
+    width: 90%;
+    padding-left: 225px;
+}
+
+.faq-container .text-container .faq-title {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+}
+
+.faq-container .text-container .question-answer {
+    padding: 15px 0;
+    list-style: none;
+    background-image: url("../images/arrow.png");
+    background-repeat: no-repeat;
+    background-position: top 20px right 14px;
+    cursor: pointer;
+    position: relative;
+}
+
+.faq-container .text-container .question {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    padding-bottom: 10px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 90%;
+}
+
+.question:hover {
+    color: #f47c57;
+}
+
+.faq-container .text-container .answer { 
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 17.6px;
+    padding-right: 43px;
+    display: none;
+}
+
+.faq-container .text-container .question-answer.active {
+    background-image: url("../images/arrow-open.png");
+}
+
+.faq-container .text-container .question-answer.active .answer {
+    display: block;
+    animation-name: slide-down;
+    animation-duration: 1s;
+}
+
+@keyframes slide-down {
+    from {
+        opacity: 0;
+        position: relative;
+        bottom: 15px;
+    }
+    to {
+        opacity: 1;
+        position: relative;
+        bottom: 0;
+    }
+}
+
+.faq-container .text-container .faq-line {
+    border-width: 1px 0 0 0;
+    border-color: #D4D4D4;
+}

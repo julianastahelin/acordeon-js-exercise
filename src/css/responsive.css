@@ -1,0 +1,139 @@
+@media (max-width: 840px) {
+    .faq-container {
+        width: 550px;
+    }
+}
+
+@media (max-width: 735px) {
+    .faq-container {
+        width: 530px;
+    }
+
+    .faq-container .faq-img {
+        width: 260px;
+    }
+
+    .faq-container .text-container {
+        padding-left: 215px;
+        padding-right: 0;
+    }
+}
+
+@media (max-width: 600px) {
+    .faq-container {
+        width: 500px;
+    }
+
+    .faq-container .faq-img {
+        position: relative;
+        left: -30px;
+        width: 230px;
+    }
+
+    .faq-container .text-container {
+        padding-left: 0;
+        padding-right: 37px;
+    }
+
+    .faq-container .text-container .faq-title {
+        font-size: 20px;
+    }
+
+    .faq-container .text-container .question {
+        font-size: 15px;
+        padding-bottom: 8px;
+    }
+
+    .faq-container .text-container .answer { 
+        font-size: 12px;
+        line-height: 15px;
+    }
+}
+
+@media (max-width: 500px) {
+    .faq-container {
+        width: 400px;
+    }
+
+    .faq-container .faq-img {
+        position: absolute;
+        left: -70px;
+        width: 220px;
+    }
+
+    .faq-container .text-container {
+        padding-left: 170px;
+        padding-right: 0;
+    }
+
+    .faq-container .text-container .faq-title {
+        font-size: 20px;
+    }
+
+    .faq-container .text-container .question {
+        font-size: 15px;
+        padding-bottom: 8px;
+        padding-right: 30px;
+    }
+    
+    .faq-container .text-container .answer { 
+        font-size: 12px;
+        line-height: 15px;
+    }
+}
+
+@media (max-width: 420px) {
+    .container {
+        height: 700px;
+    }
+
+    .faq-container {
+        width: 80%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .faq-container .faq-img {
+        position: relative;
+        margin: 20px auto 10px;
+        left: 0;
+    }
+
+    .faq-container .text-container {
+        padding: 20px;
+    }
+
+    .faq-container .text-container .faq-title {
+        font-size: 25px;
+    }
+
+    .faq-container .text-container .question {
+        font-size: 15px;
+        padding-bottom: 8px;
+    }
+
+    .faq-container .text-container .answer { 
+        font-size: 12px;
+        line-height: 15px;
+    }
+}
+
+@media (max-width: 325px) {
+    .faq-container .faq-img {
+       width: 215px;
+    }
+
+    .faq-container .text-container .faq-title {
+        font-size: 23px;
+    }
+
+    .faq-container .text-container .question {
+        font-size: 14px;
+        padding-bottom: 8px;
+    }
+    
+    .faq-container .text-container .answer { 
+        font-size: 12px;
+        line-height: 13px;
+    }
+}
